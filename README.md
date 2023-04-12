@@ -24,7 +24,7 @@ To install the KDE_SUS Log Formatter, clone the repository and install the requi
 - To use the tool, run the `log_formatter.py` script with the path to the log file as input:
 
 ``` 
-python sus_log_formatter.py input_file_path [-o output_file_path]
+python log_formatter.py input_file_path [-o output_file_path]
 ```
 
 - input_file_path: The path to the input log file in CSV format.
@@ -34,11 +34,11 @@ python sus_log_formatter.py input_file_path [-o output_file_path]
 ### Example:
 
 ```
-python sus_log_formatter.py /path/to/input/logfile.csv -o /path/to/output/formatted_logfile.csv
+python log_formatter.py /path/to/input/logfile.csv -o /path/to/output/formatted_logfile.csv
 ```
 
 To format the log file located at /path/to/input/logfile.csv and display the formatted log in the terminal, run:
 
 ```
-python sus_log_formatter.py /path/to/input/logfile.csv
+python log_formatter.py /path/to/input/logfile.csv
 ```
